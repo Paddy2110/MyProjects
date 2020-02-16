@@ -1,25 +1,28 @@
-import React,{Component} from 'react';
-//import Greet from './components/Greet'
-//import PersonDetails from './components/PersonDetails'
-//import Wel from './components/Welcome'
-import Home from './Route/Home'; 
-import About from './Route/About'; 
-import Contact from './Route/Contact'; 
-import { BrowserRouter as Router, Route, Link, } from 'react-router-dom';
-import './App.css';
+//import React, {Component} from 'react';
+import React from 'react';
+import Greet from './components/Greet'
+import PersonDetails from './components/PersonDetails'
+import Wel from './components/Welcome'
+import SubscriptionDetils from './Route/Subscription/SubscriptionDetails';
+//import Home from './Route/Home'; 
+//import About from './Route/About'; 
+//import Contact from './Route/Contact'; 
+//import { BrowserRouter as Router, Route, Link, } from 'react-router-dom';
+//import './App.css';
 
-/*function App() {
+function App() {
   return (
     <div>
-      <PersonDetails></PersonDetails>
       
+      <SubscriptionDetils></SubscriptionDetils>
+      <PersonDetails></PersonDetails>
       <Greet name = "Pradeep " surname = "Shrivastava"></Greet>
       <Wel></Wel>    
     </div>
   );
-}*/
+}
 
-export class App extends Component 
+/*export class App extends Component 
 {
 render ()
 {
@@ -46,6 +49,6 @@ render ()
   );
 }
 
-}
+}*/
 
 export default App;
